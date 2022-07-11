@@ -1,0 +1,428 @@
+/* ----------- ALTURA DO BOX ---------------  */
+@media (min-width: 2560px) {
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        height: 100vh;
+    }
+}
+
+/* ----------- HEADER ---------------  */
+@media (min-width: 1000px) {
+    #menu a {
+        border: solid 1px rgba(0, 180, 255, 0.3);
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .headerColor{
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: .5s;
+    }
+    
+    .agendar{
+        font-size: 1.5rem;
+    }
+    #menu_btn {
+        display: flex;
+        padding: .5rem 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        font-size: 1rem;
+        gap: .5rem;
+    }
+    #nav.active #menu_btn{
+        color: #fff;
+    }
+    #hamburger {
+        display: block;
+        border-top: 2px solid;
+        width: 20px;
+        color: black;
+    }
+
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        margin-top: 5px;
+        background-color: currentColor;
+        transition: .5s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-color: transparent;
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        color: #fff;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        color: #fff;
+    }
+
+    #menu {
+        display: block;
+        position: absolute;
+        margin: auto;
+        width: 50%;
+        height: 0;
+        top: 96px;
+        right: 0;
+        transition: .5s;
+        transform: translateX(100%);
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh);
+        background-color: rgba(0, 0, 0, 0.8);
+        transform: translateX(0);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a {
+        width: max-content;
+        padding: .5rem;
+        margin: 2rem auto;
+        border-bottom: solid #fff 2px;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+}
+
+/* ----------- HOME ---------------  */
+@media (max-width: 1920px) {
+    .box1 {
+        height: 850px;
+    }
+
+    #home {
+        background-position: 0% 25%;
+    }
+
+    #home>h1 {
+        font-size: 5.5rem;
+    }
+
+    #home>h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .box1 {
+        height: 600px;
+    }
+
+    #home>h1 {
+        top: 40%;
+        left: 50%;
+        font-size: 3.5rem;
+    }
+
+    #home>h3 {
+        top: 40%;
+        left: 60%;
+        width: 50%;
+        font-size: 1.8rem;
+    }
+
+    #home>p {
+        top: 55%;
+        left: 15%;
+        width: 70%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 720px) {
+    .box1 {
+        height: 720px;
+    }
+
+    #home {
+        background-position: -100px;
+    }
+
+    #home>h1 {
+        left: 25%;
+    }
+
+    #home>h3 {
+        left: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    .box1 {
+        height: 900px;
+    }
+
+    #home {
+        background-position: -350px;
+    }
+
+    #home>h1 {
+        left: 10%;
+        font-size: 3rem;
+    }
+
+    #home>h3 {
+        left: 15%;
+    }
+
+    #home>p {
+        top: 50%;
+    }
+}
+
+/* ----------- SERVIÇOS ---------------  */
+@media (max-width: 1980px) {
+    .box2 {
+        height: 900px;
+    }
+
+    .box2>h1 {
+        top: 7%;
+        left: 12%;
+        font-size: 4rem;
+    }
+
+    .SContent {
+        width: max-content;
+        top: 12%;
+        left: 12%;
+        padding-bottom: 1%;
+        gap: 20px 100px;
+        grid-template-areas:
+            "Service1 Service2"
+            "SName1 SName2"
+            "Service3 Service4"
+            "SName3 SName4";
+    }
+
+    .SContent>img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .SContent>h2 {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .box2 {
+        height: 700px;
+    }
+
+    #servicos {
+        overflow: auto;
+    }
+
+    .box2>h1 {
+        top: 15%;
+        left: 12%;
+        font-size: 2.5rem;
+    }
+
+    .SContent {
+        width: 80%;
+        top: 25%;
+        left: 10%;
+        padding-bottom: 2%;
+        gap: 20px 0px;
+        grid-template-areas:
+            "Service1 Service2 Service3 Service4"
+            "SName1 SName2 SName3 SName4";
+    }
+
+    .SContent>img {
+        width: 300px;
+    }
+
+    .SContent>h2 {
+        width: 300px;
+    }
+}
+
+@media (max-width: 720px) {
+    #servicos {
+        background-position: -400px;
+    }
+}
+
+@media (max-width: 500px) {
+    #servicos {
+        background-position: -600px;
+    }
+
+    .SContent {
+        padding-bottom: 3%;
+    }
+}
+
+/* ----------- EQUIPE ---------------  */
+@media (max-width: 1980px) {
+    #equipe {
+        background-position: 0 -30px;
+    }
+
+    .box3 {
+        height: 900px;
+    }
+
+    .box3>h1 {
+        top: 7%;
+        font-size: 4rem;
+    }
+
+    .EContent {
+        width: max-content;
+        top: 12%;
+        padding-bottom: 1%;
+        gap: 20px 100px;
+        grid-template-areas:
+            "P1 P2"
+            "PName1 PName2"
+            "P3 P4"
+            "PName3 PName4";
+    }
+
+    .EContent>img {
+        width: 350px;
+        height: 200px;
+    }
+
+    .EContent>h2 {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .box3 {
+        height: 700px;
+    }
+
+    #equipe {
+        overflow: auto;
+    }
+
+    .box3>h1 {
+        top: 15%;
+        font-size: 2.5rem;
+    }
+
+    .EContent {
+        width: 80%;
+        top: 25%;
+        padding-bottom: 2%;
+        gap: 20px 0px;
+        grid-template-areas:
+            "P1 P2 P3 P4"
+            "PName1 PName2 PName3 PName4";
+    }
+
+    .EContent>img {
+        width: 300px;
+    }
+
+    .EContent>h2 {
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .box3>h1 {
+        padding-left: 15%;
+    }
+
+    .EContent {
+        padding-bottom: 3%;
+    }
+}
+
+/* ----------- CONTATO ---------------  */
+@media (max-width: 1980px) {
+    #contato {
+        background-position: 0 -80px;
+    }
+
+    .box4 {
+        height: 1000px;
+    }
+
+    .box4>h1 {
+        top: 25%;
+        font-size: 3.5rem;
+    }
+
+    .box4>p {
+        top: 45%;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .box4>a {
+        top: 60%;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    #contato {
+        background-position: 0 30px;
+    }
+
+    .box4 {
+        height: 650px;
+    }
+
+    .box4>h1 {
+        top: 25%;
+        font-size: 3.5rem;
+    }
+
+    .box4>p {
+        top: 45%;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .box4>a {
+        top: 60%;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .box4>h1 {
+        top: 20%;
+        font-size: 3rem;
+    }
+
+    .box4>p {
+        top: 40%;
+        font-size: 1.5rem;
+    }
+
+    .box4>a {
+        top: 50%;
+        font-size: 2rem;
+    }
+}
