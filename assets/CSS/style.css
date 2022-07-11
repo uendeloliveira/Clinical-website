@@ -90,7 +90,7 @@ ul, li , a{
 /* -------------------------- HOME ---------------------------- */
 #home{
     position: relative;
-    background-image: url(/assets/Images/BG1.png);
+    background-image: url(./assets/Images/BG1.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -125,7 +125,7 @@ ul, li , a{
 /* -------------------------- SERVIÇOS ---------------------------- */
 #servicos{
     position: relative;
-    background-image: url(/assets/Images/BG2.png);
+    background-image: url(./assets/Images/BG2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -180,7 +180,7 @@ ul, li , a{
 /* -------------------------- EQUIPE ---------------------------- */
 #equipe{
     position: relative;
-    background-image: url(/assets/Images/BG3.jpg);
+    background-image: url(./assets/Images/BG3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -235,7 +235,7 @@ ul, li , a{
 /* -------------------------- CONTATO ---------------------------- */
 #contato{
     position: relative;
-    background-image: url(/assets/Images/BG4.jpg);
+    background-image: url(./assets/Images/BG4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
