@@ -371,11 +371,13 @@
     .EContent {
         padding-bottom: 3%;
     }
+    .box3 > h1{
+        font-size: 2rem;
+    }
 }
 @media (max-width: 350px){
     .box3 > h1{
         left: 5%;
-        font-size: 2rem;
     }
 }
 /* ----------- CONTATO ---------------  */
