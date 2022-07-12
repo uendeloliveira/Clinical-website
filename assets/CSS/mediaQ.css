@@ -121,6 +121,9 @@
     #home>h3 {
         font-size: 2.5rem;
     }
+    #home>p{
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 1280px) {
@@ -130,13 +133,13 @@
 
     #home>h1 {
         top: 40%;
-        left: 50%;
+        left: 45%;
         font-size: 3.5rem;
     }
 
     #home>h3 {
         top: 40%;
-        left: 60%;
+        left: 50%;
         width: 50%;
         font-size: 1.8rem;
     }
@@ -168,49 +171,37 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .box1 {
-        height: 900px;
+        height: 600px;
     }
 
     #home {
-        background-position: -350px;
+        background-position: -200px;
     }
 
     #home>h1 {
-        left: 10%;
-        font-size: 3rem;
+        top: 40%;
+        left: 5%;
+        font-size: 2.5rem;
     }
 
     #home>h3 {
+        top: 40%;
         left: 15%;
+        font-size: 1.5rem;
     }
 
     #home>p {
-        top: 50%;
+        top: 45%;
+        font-size: 1.2rem;
     }
 }
 @media (max-width: 350px) {
     .box1 {
         height: 700px;
     }
-    #home {
-        background-position: -250px;
-    }
-    #home>h1 {
-        top: 35%;
-        left: 5%;
-        font-size: 2.5rem;
-    }
-
-    #home>h3 {
-        top: 35%;
-        left: 15%;
-        font-size: 1.5rem;
-    }
-
     #home>p {
-        top: 40%;
         font-size: 1rem;
     }
 }
@@ -288,9 +279,12 @@
     #servicos {
         background-position: -400px;
     }
+    .box2 > h1{
+        width: 80%;
+    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     #servicos {
         background-position: -600px;
     }
@@ -298,10 +292,7 @@
     .SContent {
         padding-bottom: 3%;
     }
-}
-@media (max-width: 350px){
     .box2 > h1{
-        left: 5%;
         font-size: 2rem;
     }
 }
@@ -352,6 +343,7 @@
     }
 
     .box3>h1 {
+        width: 80%;
         top: 15%;
         font-size: 2.5rem;
     }
@@ -375,11 +367,7 @@
     }
 }
 
-@media (max-width: 500px) {
-    .box3>h1 {
-        left: 15%;
-    }
-
+@media (max-width: 550px) {
     .EContent {
         padding-bottom: 3%;
     }
@@ -443,7 +431,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .box4>h1 {
         top: 20%;
         font-size: 3rem;
