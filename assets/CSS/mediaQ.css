@@ -190,7 +190,30 @@
         top: 50%;
     }
 }
+@media (max-width: 350px) {
+    .box1 {
+        height: 700px;
+    }
+    #home {
+        background-position: -250px;
+    }
+    #home>h1 {
+        top: 35%;
+        left: 5%;
+        font-size: 2.5rem;
+    }
 
+    #home>h3 {
+        top: 35%;
+        left: 15%;
+        font-size: 1.5rem;
+    }
+
+    #home>p {
+        top: 40%;
+        font-size: 1rem;
+    }
+}
 /* ----------- SERVIÇOS ---------------  */
 @media (max-width: 1980px) {
     .box2 {
@@ -276,7 +299,12 @@
         padding-bottom: 3%;
     }
 }
-
+@media (max-width: 350px){
+    .box2 > h1{
+        left: 5%;
+        font-size: 2rem;
+    }
+}
 /* ----------- EQUIPE ---------------  */
 @media (max-width: 1980px) {
     #equipe {
@@ -349,14 +377,19 @@
 
 @media (max-width: 500px) {
     .box3>h1 {
-        padding-left: 15%;
+        left: 15%;
     }
 
     .EContent {
         padding-bottom: 3%;
     }
 }
-
+@media (max-width: 350px){
+    .box3 > h1{
+        left: 5%;
+        font-size: 2rem;
+    }
+}
 /* ----------- CONTATO ---------------  */
 @media (max-width: 1980px) {
     #contato {
