@@ -66,7 +66,7 @@ ul, li , a{
     padding: .5rem;
     color: #26d366;
     text-shadow: #000 1px 0px 2px;
-    border: solid 1px rgba(0, 180, 255, 0.3);
+    border: solid 1px #2B3391;
     border-radius: 50px;
     margin-left: 50px;
     font-size: 1.7rem;
@@ -79,11 +79,11 @@ ul, li , a{
 #menu a{
     display: block;
     padding: .5rem;
-    color: #000;
+    color: #2B3391;
     padding: 10px;
 }
 #menu a:hover{
-    background-color: rgba(0, 180, 255, 0.5);
+    background-color: #2B3391;
     color: #fff;
 }
 /* -------------------------- MAIN ---------------------------- */
@@ -95,19 +95,19 @@ ul, li , a{
     background-size: cover;
     height: 100%;
 }
-#home > h1{
+#home > .ODLogo{
     position: relative;
-    width: max-content; 
+    width: 300px; 
     top: 35%; 
-    left: 48%;
+    left: 45%;
     font-size: 6rem;
     color: #4d4d4d;
 }
-#home > h3{
+#home > .ODName{
     position: relative;
     width: max-content; 
     top: 35%; 
-    left: 61%;
+    left: 45%;
     font-size: 3rem;
     color: #4d4d4d;
 }
@@ -116,6 +116,7 @@ ul, li , a{
     width: 30%;
     top: 40%; 
     left: 60%;
+    color: #2B3391;
     white-space:initial;
     text-align: justify;
     font-size: 2rem;
@@ -137,7 +138,7 @@ ul, li , a{
     left: 10%;
     letter-spacing: 7px;
     font-size: 5rem;
-    color: #4d4d4d;
+    color: #2B3391;
 }
 .SContent{
     position: relative;
@@ -164,6 +165,7 @@ ul, li , a{
     margin-left: 20px;
     width: 400px;
     overflow-x: auto;
+    color: #2B3391;
 }
 .Service1{
     grid-area: Service1;
@@ -192,7 +194,7 @@ ul, li , a{
     margin: auto;
     letter-spacing: 7px;
     font-size: 5rem;
-    color: #4d4d4d;
+    color: #2B3391;
 }
 .EContent{
     position: relative;
@@ -219,6 +221,7 @@ ul, li , a{
     margin-left: 20px;
     width: 400px;
     overflow-x: auto;
+    color: #2B3391;
 }
 .P1{
     grid-area: P1;
@@ -246,7 +249,7 @@ ul, li , a{
     margin: auto;
     top: 10%;
     font-size: 5rem;
-    color: #4d4d4d;
+    color: #2B3391;
 }
 .box4 > p{
     position: relative;
@@ -254,7 +257,7 @@ ul, li , a{
     margin: auto;
     top: 30%;
     font-size: 3.5rem;
-    color: #4d4d4d;
+    color: #2B3391;
     letter-spacing: 3px;
 }
 .box4 > a{
